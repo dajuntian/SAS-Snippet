@@ -1,4 +1,5 @@
 %macro assign_folder;
+	/*This is doesn't work with SAS Studio Interactive mode. It works under Win and Linux*/
 	%global current upper uppest filepath;
 	%if &sysscp. = WIN %then %do;
 		/*beginning within windows platform*/
