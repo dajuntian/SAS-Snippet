@@ -2,9 +2,6 @@
 Some Sniggets for SAS, to make our difficult life easier.
 
 ## License
-
-This package is free and open source software, licensed under GPL.
-
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
  the Free Software Foundation, either version 3 of the License, or
