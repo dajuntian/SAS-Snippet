@@ -1,6 +1,9 @@
 ## SAS-Snippet
 Some Sniggets for SAS, to make our difficult life easier. And fun.
 User git clone to download.
+```
+git clone https://github.com/dajuntian/SAS-Snippet.git
+```
 ## License
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
