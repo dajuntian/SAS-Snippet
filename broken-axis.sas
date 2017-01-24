@@ -1,4 +1,8 @@
 *create a sample data;
+/*********************************************************
+This is a modification of http://support.sas.com/kb/24/909.html
+======================And the log is not clean=====
+*************************************************************/
 data baseball;
     set sashelp.baseball;
     output;
