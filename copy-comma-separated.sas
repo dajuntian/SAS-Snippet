@@ -1,3 +1,20 @@
+/***************************************************************************************************************************
+This is used to generate a list of values separated by ',', which could be used in sql in operation;
+*example: 
+data demo;
+	do x = 1 to 10;
+		y = '111';
+		y2 = x;
+		if x = 3 then do; y = ""; y2 = .; end;
+		output;
+	end;
+run;
+
+%comma_copy(demo, y2, output.txt, horizental = 1)
+%comma_copy(demo, y2, output.txt)
+;;;
+***************************************************************************************************************************/
+
 %macro comma_copy(inds, var, outfile, horizental = 0);
 data _null_;
 	file "&outfile." 
@@ -21,5 +38,3 @@ data _null_;
 run;
 %mend comma_copy;
 
-%comma_copy(demo, y2, output.txt, horizental = 1);
-%comma_copy(demo, y2, output.txt);
