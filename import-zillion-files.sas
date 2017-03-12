@@ -6,6 +6,7 @@ dm 'clear log';
 proc printTo log="&path\saslog.log" new;
 
 /*这句话用到好几次，设个宏变量*/
+/*set macro variable*/s
 %let infilestatements=infile nosense
 	filevar=filevar truncover 
 	encoding="utf-8" end=lastobs LRECL=700;
