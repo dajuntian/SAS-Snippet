@@ -16,7 +16,7 @@ data mean;
 		total = sum(air, total);
 	end;
 	keep year total;
-  put _all_;
+        put _all_;
 run;
 
 proc print data = mean;
