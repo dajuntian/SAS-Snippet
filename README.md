@@ -14,3 +14,6 @@ This program is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
+
+SAS and all other SAS Institute Inc. product or service names are registered trademarks or
+trademarks of SAS Institute Inc. in the USA and other countries. ® indicates USA registration. 
